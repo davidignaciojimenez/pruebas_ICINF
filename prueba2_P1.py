@@ -7,9 +7,9 @@ while True:
         break
     contnota+=nota
     lista.append(nota)
-    cont+=1
-print(len(lista))
-print(contnota/cont)
+    cont+=1 
+print("Cantidad de notas en la lista:",len(lista))
+print("Promedio de las notas en la lista:",contnota/cont)
 lista.sort()
-print(lista[0])
-print(lista[-1])
+print("Nota ingresada más baja:",lista[0])
+print("Nota ingresada más alta:",lista[-1])
