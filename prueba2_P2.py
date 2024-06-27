@@ -8,4 +8,5 @@ while z<10:
 for x in lista:
     x*=950
     lista2.append(x)
-print(lista2)
+print("Los precios ingresados en Dólares Estadounidenses:",lista)
+print("Los precios ingresados en Pesos Chilenos:",lista2)
